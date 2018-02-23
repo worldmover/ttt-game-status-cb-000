@@ -15,5 +15,6 @@ def won?(board)
       return win
     end
   end
+  board.none?{|el| el==" "}
   return false
 end
