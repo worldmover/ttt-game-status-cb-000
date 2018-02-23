@@ -17,3 +17,9 @@ def won?(board)
   end
   return false
 end
+
+def full(board)
+  if board.none?{|el| el==" "} == true
+    return true
+  end
+end
