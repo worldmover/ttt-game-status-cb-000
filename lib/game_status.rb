@@ -18,7 +18,7 @@ def won?(board)
   return false
 end
 
-def full(board)
+def full?(board)
   if board.none?{|el| el==" "} == true
     return true
   end
