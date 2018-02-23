@@ -37,8 +37,8 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    return board[WIN_COMBINATIONS[0]]
+  if won?(board)!=false
+    return won?(board)[0]
   end
   return nil
 end
